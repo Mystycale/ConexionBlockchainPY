@@ -1,0 +1,19 @@
+Para conseguir los datos de una receta, se utiliza
+Get.py prescriptionID
+prescriptionID como argumento de la funcion
+---------------------------------------------
+Para ingresar datos a la blockchain, se utiliza
+Push.py prescriptionID Hash Firma
+
+un ejemplo
+python insertar.py Rx5473 0x1111111111121111111113111113111411111111111111111111111111111111 0x2222222222222222222222222222222222222222222222222222222222222222
+
+------------------------------------------------
+
+Se deben pasar parametros del hash en 0x + 64 Hex
+
+
+
+
+
+
